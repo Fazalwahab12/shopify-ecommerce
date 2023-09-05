@@ -8,6 +8,10 @@ module.exports = {
       fontFamily: {
         sans: ['var(--font-inter)']
       },
+      screens: {
+        'sm': '355px',
+        // => @media (min-width: 640px) { ... }
+      },
       keyframes: {
         fadeIn: {
           from: { opacity: 0 },

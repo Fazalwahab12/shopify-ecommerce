@@ -1,5 +1,7 @@
 import { Carousel } from 'components/carousel';
 import Hero from 'components/front/Hero';
+import { Popular } from 'components/front/Popular';
+import Twoimage from 'components/front/Two-image';
 import { ThreeItemGrid } from 'components/grid/three-items';
 import Footer from 'components/layout/footer';
 import { Suspense } from 'react';
@@ -17,7 +19,8 @@ export default async function HomePage() {
   return (
     <>
     <Hero/>
-      <ThreeItemGrid />
+    <Popular/>
+      <Twoimage />
       <Suspense>
         <Carousel />
         <Suspense>
