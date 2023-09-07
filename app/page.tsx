@@ -1,4 +1,4 @@
-import { Carousel } from 'components/carousel';
+
 import Hero from 'components/front/Hero';
 import Newcollouction from 'components/front/Newcollouction';
 import { Onsele } from 'components/front/Onsele';
@@ -35,7 +35,7 @@ export default async function HomePage() {
         <Suspense>
           <Reviews/>
           <Twosimpleimge/>
-             <Carousel />
+           
              
           <Footer />
         </Suspense>
