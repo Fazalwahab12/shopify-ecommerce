@@ -13,6 +13,10 @@ export async function Carousel() {
 
   return (
     <div className=" w-full overflow-x-auto pb-6 pt-1">
+      <div className="text-center">
+        <h1 className="font-normal mb-1">SUMMER COLLECTION</h1>
+        <h1 className="font-bold text-4xl mb-4">On Sale T-Shirts</h1>
+      </div>
       <ul className="flex animate-carousel gap-4">
         {carouselProducts.map((product, i) => (
           <li

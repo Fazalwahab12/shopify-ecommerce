@@ -1,8 +1,14 @@
 import { Carousel } from 'components/carousel';
 import Hero from 'components/front/Hero';
+import Newcollouction from 'components/front/Newcollouction';
+import { Onsele } from 'components/front/Onsele';
 import { Popular } from 'components/front/Popular';
-import Twoimage from 'components/front/Two-image';
-import { ThreeItemGrid } from 'components/grid/three-items';
+import Reviews from 'components/front/Reviews';
+import Spring from 'components/front/Spring';
+import Twoiimage from 'components/front/Twoimage';
+
+import Twosimpleimge from 'components/front/Twosimpleimge';
+
 import Footer from 'components/layout/footer';
 import { Suspense } from 'react';
 
@@ -20,10 +26,17 @@ export default async function HomePage() {
     <>
     <Hero/>
     <Popular/>
-      <Twoimage />
+      <Twoiimage />
       <Suspense>
-        <Carousel />
+        <Newcollouction/>
+        <Spring/>
+     
+<Onsele/>
         <Suspense>
+          <Reviews/>
+          <Twosimpleimge/>
+             <Carousel />
+             
           <Footer />
         </Suspense>
       </Suspense>

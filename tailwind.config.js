@@ -12,6 +12,10 @@ module.exports = {
         'sm': '355px',
         // => @media (min-width: 640px) { ... }
       },
+      backgroundImage: {
+        'hero': "url('https://websitedemos.net/t-shirts-store-04/wp-content/uploads/sites/1115/2022/07/bg-01.jpg')",
+        
+      },
       keyframes: {
         fadeIn: {
           from: { opacity: 0 },
