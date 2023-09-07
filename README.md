@@ -13,6 +13,8 @@ Follow these steps to get started with the project:
 
 ### Installation
 
+first learn vercel  Shopify integration 
+
 1. Clone this repository to your local machine:
 
    ```bash
