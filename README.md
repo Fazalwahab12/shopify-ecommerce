@@ -22,7 +22,7 @@ first learn vercel  Shopify integration
 
 1: Navigate to the project directory:
     
-    cd ecommerce-website
+    cd directory name
 
 2: Install project dependencies using PNPM:
 
