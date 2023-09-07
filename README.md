@@ -18,7 +18,7 @@ first learn vercel  Shopify integration
 1. Clone this repository to your local machine:
 
    ```bash
-   git clone https://github.com/your-username/ecommerce-website.git
+   git clone 
 
 1: Navigate to the project directory:
     
