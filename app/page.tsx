@@ -10,6 +10,7 @@ import Twoiimage from 'components/front/Twoimage';
 import Twosimpleimge from 'components/front/Twosimpleimge';
 
 import Footer from 'components/layout/footer';
+import { Carousel } from 'components/product/Carousel';
 import { Suspense } from 'react';
 
 export const runtime = 'edge';
@@ -36,7 +37,7 @@ export default async function HomePage() {
           <Reviews/>
           <Twosimpleimge/>
            
-             
+             <Carousel/>
           <Footer />
         </Suspense>
       </Suspense>
